@@ -17,7 +17,7 @@ return new class extends Migration
             $table->text('jawaban')->nullable();
             $table->string('tingkat')->nullable();
             $table->timestamp('mulai')->nullable()->default('2024-10-27 13.00');
-            $table->timestamp('berakhir')->nullable()->default('2024-10-27 15.00');
+            $table->timestamp('berakhir')->nullable()->default('2026-10-27 15.00');
             $table->integer('status')->nullable();
             $table->timestamps();
         });
